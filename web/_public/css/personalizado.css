@@ -1,0 +1,14 @@
+/* 
+    Created on : 03/04/2017, 13:22:34
+    Author     : savio
+*/
+#conteudo
+{
+    margin: 2px;
+}
+
+#painel .panel-heading
+{
+    background-color: rgb(0, 1, 86);
+    color: white;
+}
