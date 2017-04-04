@@ -5,7 +5,7 @@
 --%>
 <%@include file="/imports/head.jsp" %>
 <div class="panel-heading">
-    <h3 class="panel-title">Painel Titulo</h3>
+    <h3 class="panel-title"><strong><i class="fa fa-list-alt"></i> Patrimonio Movel</strong></h3>
 </div>
 <div class="panel-body">
     Hello World!

@@ -21,10 +21,11 @@
         <div class="nav navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a href="#" class="navbar-brand">Patrimonio Movel</a>
+                    <a href="Inicio" class="navbar-brand">Patrimonio Movel</a>
                 </div>
                 <ul class="nav navbar-nav navbar-left">
-                    <li><a href="#">Inicio</a></li>
+                    <li class="active"><a href="Inicio"><i class="fa fa-home"></i> Inicio</a></li>
+                    <li><a href="Cadastrar"><i class="fa fa-plus-square"></i> Cadastrar Patrimonio</a></li>
                 </ul>
             </div>
         </div>
