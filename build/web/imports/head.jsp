@@ -18,6 +18,17 @@
         <script src="_public/js/npm.js" type="text/javascript"></script>
     </head>
     <body>
+        <div class="nav navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand">Patrimonio Movel</a>
+                </div>
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="#">Inicio</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
         <div id="conteudo" class="row">
             <div class="col-md-12">
                 <div id="painel" class="panel panel-info">
