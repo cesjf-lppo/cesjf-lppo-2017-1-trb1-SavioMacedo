@@ -3,12 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/aluno/Desktop/cesjf-lppo-2017-1-trb1-SavioMacedo/src/java/InicioServlet.java</file>
-            <file>file:/C:/Users/aluno/Desktop/cesjf-lppo-2017-1-trb1-SavioMacedo/web/_public/css/personalizado.css</file>
-            <file>file:/C:/Users/aluno/Desktop/cesjf-lppo-2017-1-trb1-SavioMacedo/src/java/CadastrarServlet.java</file>
-            <file>file:/C:/Users/aluno/Desktop/cesjf-lppo-2017-1-trb1-SavioMacedo/web/cadastrar.jsp</file>
-            <file>file:/C:/Users/aluno/Desktop/cesjf-lppo-2017-1-trb1-SavioMacedo/web/index.jsp</file>
-            <file>file:/C:/Users/aluno/Desktop/cesjf-lppo-2017-1-trb1-SavioMacedo/web/imports/head.jsp</file>
+            <file>file:/C:/Users/savio/Documents/GitRepo/cesjf-lppo-2017-1-trb1-SavioMacedo/web/index.jsp</file>
+            <file>file:/C:/Users/savio/Documents/GitRepo/cesjf-lppo-2017-1-trb1-SavioMacedo/web/cadastrar.jsp</file>
+            <file>file:/C:/Users/savio/Documents/GitRepo/cesjf-lppo-2017-1-trb1-SavioMacedo/src/java/IniciarServlet.java</file>
+            <file>file:/C:/Users/savio/Documents/GitRepo/cesjf-lppo-2017-1-trb1-SavioMacedo/src/java/CadastrarServlet.java</file>
         </group>
     </open-files>
 </project-private>

@@ -12,14 +12,14 @@
         <fieldset>
             <legend>Cadastro</legend>
             <div class="form-group">
-                <input type="number" name="serie" class="form-control" placeholder="Numero de Serie" aria-describedby="sizing-addon2">
+                <input type="number" name="serie" id="serie" class="form-control" placeholder="Numero de Serie" aria-describedby="sizing-addon2">
             </div>
             <div class="form-group">
-                <input type="text" name="local" class="form-control" placeholder="Local" aria-describedby="sizing-addon2">
+                <input type="text" name="local" id="local" class="form-control" placeholder="Local" aria-describedby="sizing-addon2">
             </div>
             <div class="form-group">
-                <label for="sel1">Estado:</label>
-                <select class="form-control" name="selecao" id="sel1">
+                <label for="selecao">Estado:</label>
+                <select class="form-control" name="selecao" id="selecao">
                   <option value="0">Novo</option>
                   <option value="1">Em Uso</option>
                   <option value="2">Danificado</option>
@@ -27,14 +27,14 @@
                 </select>
             </div>
             <div class="form-group">
-                <label for="descrocap">Descrição:</label>
+                <label for="descricao">Descrição:</label>
                 <textarea class="form-control" rows="5" id="descricao" name="descricao"></textarea>
              </div>
         </fieldset>
     </div>
     <div class="panel-footer">
         <div class="pull-right">
-            <button class="btn btn-success"><i class="fa fa-plus-circle"></i> Cadastrar</button>
+            <button type="submit" class="btn btn-success"><i class="fa fa-plus-circle"></i> Cadastrar</button>
         </div>
         <div class="clearfix"></div>
     </div>

@@ -6,6 +6,12 @@
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -36,7 +42,28 @@ public class CadastrarServlet extends HttpServlet
      */
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
+            throws ServletException, IOException
+    {   
+        try
+        {
+            String serie = request.getParameter("serie");
+        String local = request.getParameter("local");
+        int estado = Integer.parseInt(request.getParameter("selecao"));
+        String descricao = request.getParameter("descricao");
+            
+            Class.forName("org.apache.derby.jdbc.ClientDriver");
+            Connection conexao = DriverManager.getConnection("jdbc:derby://localhost:1527/lppo-2017-1", "usuario", "senha");
+            String sql = "INSERT INTO equipamento(serie,local,descricao,estado) values ('"+serie+"','"+local+"','"+descricao+"',"+estado+")";
+            Statement operacao = conexao.createStatement();
+            operacao.executeUpdate(sql);
+          response.sendRedirect("Inicio");
+        }
+        catch (ClassNotFoundException | SQLException ex)
+        {
+            Logger.getLogger(CadastrarServlet.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
+        
     }
 
 }
