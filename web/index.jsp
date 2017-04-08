@@ -16,7 +16,7 @@
             <option value="1">Em Uso</option>
             <option value="2">Danificado</option>
             <option value="3">Perdido</option>
-          </select>
+        </select>
     </div>
     <div class="clearfix"></div>
 </div>
@@ -37,9 +37,22 @@
                 <td>${equipamentos.local}</td>
                 <td>${equipamentos.descricao}</td>
                 <td>${equipamentos.estado}</td>
-                <td><button class="btn btn-warning">Editar</button> <button class="btn btn-danger">Excluir</button></td>
+                <td><button onclick="editar(${equipamentos.id})" class="btn btn-warning">Editar</button> <button onclick="deletar(${equipamentos.id});" class="btn btn-danger">Excluir</button></td>
              </tr>
         </c:forEach>
     </table>
 </div>
+<script>
+    function deletar(id)
+    {
+        if(confirm("Você deseja excluir?"))
+        {
+            window.location="Excluir?id="+id;
+        }
+    }
+    function editar(id)
+    {
+        window.location="Editar?id="+id;
+    }
+</script>
 <%@include file="/imports/footer.jsp" %>
